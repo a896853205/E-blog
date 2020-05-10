@@ -36,7 +36,7 @@ $ npm install --save-dev mocha
 
 ```javascript
 // src/pow.js
-export function pow(x, n) {
+modules.exports = function pow(x, n) {
   // error example
   if (x === 2) {
     return 100;
